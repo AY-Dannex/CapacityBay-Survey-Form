@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CapacityBay Survey Form</title>
+</head>
+<body>
+    <main>
+        <h2>CapacityBay Survey Form</h2>
+        <p><i>Thank you for taking the time to help us improve the platform</i></p>
+        <div>
+            <form action="" method="post">
+                <label for="name">Name</label> <br>
+                <input type="text" name="name" id="" placeholder="Enter your name" required class="text-field"> <br> <br>
+
+                <label for="Email">Email</label> <br>
+                <input type="email" name="Email" id=""  placeholder="Enter your Email" required class="text-field"> <br> <br>
+
+                <label for="Age">Age <span>(optional)</span></label> <br>
+                <input type="number" name="Age" id="" placeholder="Age" class="text-field"> <br> <br>
+
+                <label for="Current-Role">Which options best describe your current role?</label> <br>
+                <select name="Current-Role" id="" class="text-field" required>
+                    <option value="" selected disabled>Select Current Role</option>
+                    <option value="Student">Student</option>
+                    <option value="Full Time Job">Full Time Job</option>
+                    <option value="Full Time Learner">Full Time Learner</option>
+                    <option value="Rather not say">Rather not say</option>
+                    <option value="Others">Others</option>
+                </select> <br> <br>
+
+                <label for="myradio">Would you recommend CapacityBay to a friend?</label> <br>
+                <input type="radio" name="myradio" id="" required> Definitely <br>
+                <input type="radio" name="myradio" id="" required> Maybe <br>
+                <input type="radio" name="myradio" id="" required> Not sure <br> <br>
+
+                <label for="features">What is your favourite feature of CapacityBay?</label> <br>
+                <select name="features" id="" class="text-field" required>
+                    <option value="Select an option" disabled selected>Select an option</option>
+                    <option value="Challenges">Challenges</option>
+                    <option value="Project">Project</option>
+                    <option value="Community">Community</option>
+                    <option value="Open Source">Open Source</option>
+                </select> <br> <br>
+
+                <label for="check">What would you lke to see improved? <span>(check all that apply)</span></label> <br>
+                <input type="checkbox" name="check" class="mycheck"> Front-end Projects <br>
+                <input type="checkbox" name="check" class="mycheck"> Back-end Projects <br>
+                <input type="checkbox" name="check" class="mycheck"> Data Visualization <br>
+                <input type="checkbox" name="check" class="mycheck"> Challenges <br>
+                <input type="checkbox" name="check" class="mycheck"> Open Source Community <br>
+                <input type="checkbox" name="check" class="mycheck"> Gitters help rooms <br>
+                <input type="checkbox" name="check" class="mycheck"> Videos <br>
+                <input type="checkbox" name="check" class="mycheck"> City Meetups <br>
+                <input type="checkbox" name="check" class="mycheck"> Forum <br>
+                <input type="checkbox" name="check" class="mycheck"> Additional Courses <br> <br>
+
+                <label for="message">Any comments or suggestions?</label> <br>
+                <textarea name="message" id="" required placeholder="Enter your comment here....." class="text-field msg"></textarea> <br> <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
